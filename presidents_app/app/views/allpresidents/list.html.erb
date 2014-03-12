@@ -1,0 +1,15 @@
+<div class="jumbotron">
+  <h1>Getty and Hedy's Excellent Presidential Website</h1>
+  <p>"Texas has long been known as the nation's largest energy producer, but we are equally proud of our distinction as the nation's leading energy innovator. Our goal is to displace the entrenched powers in Washington, restore the rightful balance between the state and federal government. Washington's insatiable desire to spend our children's inheritance on failed stimulus plans and other misguided economic theories have given record debt and left us with far too many unemployed. I don't know what y’all would do to him in Iowa, but we -- we would treat him pretty ugly down in Texas. Uh um uh um. Uh um uh um. Conservatives are winning offices, and champions of big government are cleaning out their desks right now. Ummm..."</p>
+  <p><a class="btn btn-primary btn-lg" role="button">Learn more</a></p>
+</div>
+<div>
+  <ul>
+<p><% @presidents.each do |president| %></p>
+  <li><%=president["first"] %> <%= president ["last"] %>, <%=president["term-start"] %>-<%=president["term-end"] %> 
+  <img src="<%=president["image_url"]%>">
+  </li>
+
+<% end %>
+  </ul>
+</div>

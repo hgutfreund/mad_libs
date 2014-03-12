@@ -1,0 +1,29 @@
+div{
+    background-image:	url("http://salemflagday.com/wp-content/fabric-flag2.jpg");
+    color: 	#FFFFFF;
+    height:1600px;
+    width:1000px;
+    border:6px solid red;
+    padding: 20px;
+    margin: 40px;
+    font-size: 30px;    
+}
+
+
+img {
+height:200px
+}
+
+.jumbotron {
+  height: 600px; 
+  width: 1000px; 
+  color: red; 
+}
+
+p {
+  color: black;
+}
+
+h1 {
+  color: red;
+}
