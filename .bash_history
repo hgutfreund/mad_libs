@@ -96,3 +96,22 @@ git commit -m "first commit"
 cd presidents_app
 git status
 git remote add origin https://github.com/gettty/first_app.git
+rails new mad_libs
+cd mad_libs
+cd
+git config --global user.name "John Doe"
+git config --global user.email johndoe@example.com<br>
+git config --global user.email johndoe@example.com
+git init
+git add -A
+git commit -m "first commit"
+git remote add origin https://github.com/hgutfreund/mad_libs.git
+git push -u origin master
+rails server mad_libs
+rails server 
+cd mad_libs
+rails s
+rails s
+cd mad_lib
+cd mad_libs
+rails s
